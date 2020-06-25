@@ -3,9 +3,11 @@ GEM
   specs:
     diff-lcs (1.4)
     mini_portile2 (2.4.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    rack (1.6.13)
+    rack (2.1.4)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
       rspec-expectations (~> 2.99.0)
@@ -16,11 +18,12 @@ GEM
     rspec-mocks (2.99.4)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   nokogiri
-  rack (~> 1.1)
+  rack (~> 2.1)
   rspec (~> 2)
 
 BUNDLED WITH
